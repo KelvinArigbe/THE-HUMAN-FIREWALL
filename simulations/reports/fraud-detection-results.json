@@ -1,0 +1,60 @@
+{
+  "beneficiary_checks": [
+    {
+      "scenario_ids": [
+        "S02",
+        "S17"
+      ],
+      "transaction_id": "TXN-001",
+      "decision": "PASS",
+      "finding": "Beneficiary matches the approved customer record."
+    },
+    {
+      "scenario_ids": [
+        "S02",
+        "S17"
+      ],
+      "transaction_id": "TXN-002",
+      "decision": "BLOCK",
+      "finding": "Submitted beneficiary differs from the approved customer record."
+    },
+    {
+      "scenario_ids": [
+        "S02",
+        "S17"
+      ],
+      "transaction_id": "TXN-003",
+      "decision": "PASS",
+      "finding": "Beneficiary matches the approved customer record."
+    }
+  ],
+  "duplicate_checks": [
+    {
+      "scenario_ids": [
+        "S03",
+        "S16"
+      ],
+      "transaction_id": "TXN-001",
+      "decision": "PASS",
+      "finding": "No duplicate indicator detected."
+    },
+    {
+      "scenario_ids": [
+        "S03",
+        "S16"
+      ],
+      "transaction_id": "TXN-002",
+      "decision": "PASS",
+      "finding": "No duplicate indicator detected."
+    },
+    {
+      "scenario_ids": [
+        "S03",
+        "S16"
+      ],
+      "transaction_id": "TXN-003",
+      "decision": "PASS",
+      "finding": "No duplicate indicator detected."
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "scenario_id": "S01",
+    "title": "Forged Payment Instruction",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S02",
+    "title": "Altered Beneficiary Details",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S03",
+    "title": "Replayed Payment Instruction",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S04",
+    "title": "Unusual Supporting Documentation",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S05",
+    "title": "Customer Impersonation",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S06",
+    "title": "Executive Impersonation",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S07",
+    "title": "Urgency Manipulation",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S08",
+    "title": "Insider-Assisted Fraud",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S09",
+    "title": "Unavailable Signatory",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S10",
+    "title": "Inconsistent Transaction Confirmation",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S11",
+    "title": "Compromised Communication Channel",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S12",
+    "title": "Disputed Verbal Approval",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S13",
+    "title": "Missing Account Officer Approval",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S14",
+    "title": "Missing Group Head Approval",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S15",
+    "title": "Missing Divisional Head Approval",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S16",
+    "title": "Duplicate Payment",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S17",
+    "title": "Beneficiary Record Mismatch",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S18",
+    "title": "Unauthorised Transaction Release",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S19",
+    "title": "Incomplete Approval Audit Trail",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  },
+  {
+    "scenario_id": "S20",
+    "title": "Delayed Fraud Escalation",
+    "decision": "PASS",
+    "findings": [],
+    "risk_level": "LOW"
+  }
+]

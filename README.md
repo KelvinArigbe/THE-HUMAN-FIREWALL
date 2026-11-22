@@ -66,3 +66,26 @@ not claim to establish the effectiveness of any real bank's controls.
 
 ## Author
 Kelvin Arigbe
+
+## Phase 2 — Detection Engine
+
+The project now includes:
+
+- A 20-scenario defensive control-validation engine.
+- Beneficiary verification against synthetic approved customer records.
+- Duplicate-payment screening using instruction references and transaction fingerprints.
+- PASS, REVIEW and BLOCK decisions.
+- JSON investigation output at `simulations/reports/fraud-detection-results.json`.
+- Automated tests covering baseline controls, beneficiary mismatches and duplicate-payment indicators.
+
+### Run the simulations
+
+    python3 -m unittest discover -s simulations/tests -v
+    python3 simulations/run_simulations.py
+    python3 simulations/run_fraud_checks.py
+
+### Implementation scope
+
+Beneficiary verification and duplicate-payment screening have dedicated detection logic. The remaining scenarios are represented by control-validation rules and documented simulation cases; they are not independently implemented fraud-detection algorithms.
+
+All records are fictional and intended for defensive education and portfolio demonstration.
