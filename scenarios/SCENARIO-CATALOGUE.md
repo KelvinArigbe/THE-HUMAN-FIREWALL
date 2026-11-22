@@ -1,0 +1,22 @@
+# THE HUMAN FIREWALL — Scenario Catalogue
+
+- **S01: Forged Payment Instruction** — Document fraud.
+- **S02: Altered Beneficiary Details** — Document fraud.
+- **S03: Replayed Payment Instruction** — Document fraud.
+- **S04: Unusual Supporting Documentation** — Document fraud.
+- **S05: Customer Impersonation** — Social engineering.
+- **S06: Executive Impersonation** — Social engineering.
+- **S07: Urgency Manipulation** — Social engineering.
+- **S08: Insider-Assisted Fraud** — Social engineering.
+- **S09: Unavailable Signatory** — Telephone verification.
+- **S10: Inconsistent Transaction Confirmation** — Telephone verification.
+- **S11: Compromised Communication Channel** — Telephone verification.
+- **S12: Disputed Verbal Approval** — Telephone verification.
+- **S13: Missing Account Officer Approval** — Management approvals.
+- **S14: Missing Group Head Approval** — Management approvals.
+- **S15: Missing Divisional Head Approval** — Management approvals.
+- **S16: Duplicate Payment** — Payment processing.
+- **S17: Beneficiary Record Mismatch** — Payment processing.
+- **S18: Unauthorised Transaction Release** — Payment processing.
+- **S19: Incomplete Approval Audit Trail** — Investigation.
+- **S20: Delayed Fraud Escalation** — Investigation.

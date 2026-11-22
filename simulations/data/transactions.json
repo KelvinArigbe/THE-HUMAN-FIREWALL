@@ -1,0 +1,47 @@
+[
+  {
+    "transaction_id": "TXN-001",
+    "customer": "Meridian Trading Ltd.",
+    "signatory": "Fictional Customer Director",
+    "amount": 500000,
+    "beneficiary": "Apex Supplies Ltd.",
+    "risk_level": "low",
+    "customer_confirmed": true,
+    "document_valid": true,
+    "approvals": {
+      "account_officer": true,
+      "group_head": false,
+      "divisional_head": false
+    }
+  },
+  {
+    "transaction_id": "TXN-002",
+    "customer": "Meridian Trading Ltd.",
+    "signatory": "Fictional Customer Director",
+    "amount": 2500000,
+    "beneficiary": "Different Beneficiary Ltd.",
+    "risk_level": "medium",
+    "customer_confirmed": true,
+    "document_valid": true,
+    "approvals": {
+      "account_officer": true,
+      "group_head": true,
+      "divisional_head": false
+    }
+  },
+  {
+    "transaction_id": "TXN-003",
+    "customer": "Meridian Trading Ltd.",
+    "signatory": "Fictional Customer Director",
+    "amount": 5000000,
+    "beneficiary": "Apex Supplies Ltd.",
+    "risk_level": "high",
+    "customer_confirmed": false,
+    "document_valid": true,
+    "approvals": {
+      "account_officer": true,
+      "group_head": true,
+      "divisional_head": false
+    }
+  }
+]

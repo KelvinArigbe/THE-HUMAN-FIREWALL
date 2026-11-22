@@ -1,0 +1,9 @@
+flowchart TD
+A["Synthetic input"] --> B["Scenario engine"]
+B --> C["Control checks"]
+C --> D{"All controls satisfied?"}
+D -->|Yes| E["PASS"]
+D -->|No| F["BLOCK and record issue"]
+E --> G["Test evidence"]
+F --> G
+G --> H["Security assessment"]

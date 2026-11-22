@@ -1,0 +1,16 @@
+
+THE HUMAN FIREWALL — S01 VALIDATION ENGINE
+================================================
+
+Transaction: TXN-001
+Decision: APPROVE
+  All simulated controls passed.
+
+Transaction: TXN-002
+Decision: BLOCK
+  - Beneficiary mismatch
+
+Transaction: TXN-003
+Decision: BLOCK
+  - Customer authorisation not confirmed
+  - Missing approval: divisional_head

@@ -1,0 +1,12 @@
+test_beneficiary_mismatch_is_blocked (test_validator.TestTransactionValidation.test_beneficiary_mismatch_is_blocked) ... ok
+test_invalid_document_is_blocked (test_validator.TestTransactionValidation.test_invalid_document_is_blocked) ... ok
+test_missing_divisional_approval_is_blocked (test_validator.TestTransactionValidation.test_missing_divisional_approval_is_blocked) ... ok
+test_signatory_mismatch_is_blocked (test_validator.TestTransactionValidation.test_signatory_mismatch_is_blocked) ... ok
+test_unconfirmed_instruction_is_blocked (test_validator.TestTransactionValidation.test_unconfirmed_instruction_is_blocked) ... ok
+test_unregistered_customer_is_blocked (test_validator.TestTransactionValidation.test_unregistered_customer_is_blocked) ... ok
+test_valid_transaction_is_approved (test_validator.TestTransactionValidation.test_valid_transaction_is_approved) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

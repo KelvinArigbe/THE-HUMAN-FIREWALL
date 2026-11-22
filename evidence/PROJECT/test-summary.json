@@ -1,0 +1,10 @@
+{
+  "project": "THE HUMAN FIREWALL",
+  "generated_at_utc": "2026-11-22T08:19:43.762208+00:00",
+  "documented_scenarios": 20,
+  "scenario_engine_tests": 40,
+  "original_s01_tests": 7,
+  "total_tests_expected": 47,
+  "observed_test_result": "47 tests passed",
+  "scope_note": "The 40 generated tests validate generic control pass/block behaviour. They are not 40 independent fraud-mechanism simulations."
+}

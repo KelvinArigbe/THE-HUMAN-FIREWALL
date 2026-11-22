@@ -1,0 +1,52 @@
+test_s01_control_passes (test_all_scenarios.TestAllScenarios.test_s01_control_passes) ... ok
+test_s01_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s01_failure_is_blocked) ... ok
+test_s02_control_passes (test_all_scenarios.TestAllScenarios.test_s02_control_passes) ... ok
+test_s02_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s02_failure_is_blocked) ... ok
+test_s03_control_passes (test_all_scenarios.TestAllScenarios.test_s03_control_passes) ... ok
+test_s03_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s03_failure_is_blocked) ... ok
+test_s04_control_passes (test_all_scenarios.TestAllScenarios.test_s04_control_passes) ... ok
+test_s04_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s04_failure_is_blocked) ... ok
+test_s05_control_passes (test_all_scenarios.TestAllScenarios.test_s05_control_passes) ... ok
+test_s05_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s05_failure_is_blocked) ... ok
+test_s06_control_passes (test_all_scenarios.TestAllScenarios.test_s06_control_passes) ... ok
+test_s06_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s06_failure_is_blocked) ... ok
+test_s07_control_passes (test_all_scenarios.TestAllScenarios.test_s07_control_passes) ... ok
+test_s07_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s07_failure_is_blocked) ... ok
+test_s08_control_passes (test_all_scenarios.TestAllScenarios.test_s08_control_passes) ... ok
+test_s08_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s08_failure_is_blocked) ... ok
+test_s09_control_passes (test_all_scenarios.TestAllScenarios.test_s09_control_passes) ... ok
+test_s09_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s09_failure_is_blocked) ... ok
+test_s10_control_passes (test_all_scenarios.TestAllScenarios.test_s10_control_passes) ... ok
+test_s10_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s10_failure_is_blocked) ... ok
+test_s11_control_passes (test_all_scenarios.TestAllScenarios.test_s11_control_passes) ... ok
+test_s11_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s11_failure_is_blocked) ... ok
+test_s12_control_passes (test_all_scenarios.TestAllScenarios.test_s12_control_passes) ... ok
+test_s12_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s12_failure_is_blocked) ... ok
+test_s13_control_passes (test_all_scenarios.TestAllScenarios.test_s13_control_passes) ... ok
+test_s13_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s13_failure_is_blocked) ... ok
+test_s14_control_passes (test_all_scenarios.TestAllScenarios.test_s14_control_passes) ... ok
+test_s14_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s14_failure_is_blocked) ... ok
+test_s15_control_passes (test_all_scenarios.TestAllScenarios.test_s15_control_passes) ... ok
+test_s15_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s15_failure_is_blocked) ... ok
+test_s16_control_passes (test_all_scenarios.TestAllScenarios.test_s16_control_passes) ... ok
+test_s16_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s16_failure_is_blocked) ... ok
+test_s17_control_passes (test_all_scenarios.TestAllScenarios.test_s17_control_passes) ... ok
+test_s17_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s17_failure_is_blocked) ... ok
+test_s18_control_passes (test_all_scenarios.TestAllScenarios.test_s18_control_passes) ... ok
+test_s18_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s18_failure_is_blocked) ... ok
+test_s19_control_passes (test_all_scenarios.TestAllScenarios.test_s19_control_passes) ... ok
+test_s19_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s19_failure_is_blocked) ... ok
+test_s20_control_passes (test_all_scenarios.TestAllScenarios.test_s20_control_passes) ... ok
+test_s20_failure_is_blocked (test_all_scenarios.TestAllScenarios.test_s20_failure_is_blocked) ... ok
+test_beneficiary_mismatch_is_blocked (test_validator.TestTransactionValidation.test_beneficiary_mismatch_is_blocked) ... ok
+test_invalid_document_is_blocked (test_validator.TestTransactionValidation.test_invalid_document_is_blocked) ... ok
+test_missing_divisional_approval_is_blocked (test_validator.TestTransactionValidation.test_missing_divisional_approval_is_blocked) ... ok
+test_signatory_mismatch_is_blocked (test_validator.TestTransactionValidation.test_signatory_mismatch_is_blocked) ... ok
+test_unconfirmed_instruction_is_blocked (test_validator.TestTransactionValidation.test_unconfirmed_instruction_is_blocked) ... ok
+test_unregistered_customer_is_blocked (test_validator.TestTransactionValidation.test_unregistered_customer_is_blocked) ... ok
+test_valid_transaction_is_approved (test_validator.TestTransactionValidation.test_valid_transaction_is_approved) ... ok
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.011s
+
+OK

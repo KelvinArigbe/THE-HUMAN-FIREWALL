@@ -1,0 +1,22 @@
+
+flowchart TD
+    A["Customer submits payment instruction"] --> B["Bank receives instruction"]
+    B --> C["Document and mandate verification"]
+    C --> D{"Document checks passed?"}
+    D -->|No| H["Hold and investigate"]
+    D -->|Yes| E["Call registered signatory"]
+    E --> F{"Amount and beneficiary confirmed?"}
+    F -->|No| H
+    F -->|Yes| G["Determine approval requirements"]
+    G --> I["Account Officer voice approval"]
+    I --> J{"Group Head required?"}
+    J -->|Yes| K["Group Head voice approval"]
+    J -->|No| M["Verify approval records"]
+    K --> L{"Divisional Head required?"}
+    L -->|Yes| N["Divisional Head voice approval"]
+    L -->|No| M
+    N --> M
+    M --> O{"All required approvals documented?"}
+    O -->|No| H
+    O -->|Yes| P["Processing officer validates"]
+    P --> Q["Transaction released"]

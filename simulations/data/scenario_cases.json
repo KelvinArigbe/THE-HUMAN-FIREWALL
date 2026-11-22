@@ -1,0 +1,222 @@
+[
+  {
+    "scenario_id": "S01",
+    "title": "Forged Payment Instruction",
+    "domain": "Document fraud",
+    "required_controls": [
+      "document_valid"
+    ],
+    "controls": {
+      "document_valid": true
+    }
+  },
+  {
+    "scenario_id": "S02",
+    "title": "Altered Beneficiary Details",
+    "domain": "Document fraud",
+    "required_controls": [
+      "beneficiary_matches"
+    ],
+    "controls": {
+      "beneficiary_matches": true
+    }
+  },
+  {
+    "scenario_id": "S03",
+    "title": "Replayed Payment Instruction",
+    "domain": "Document fraud",
+    "required_controls": [
+      "instruction_is_unique"
+    ],
+    "controls": {
+      "instruction_is_unique": true
+    }
+  },
+  {
+    "scenario_id": "S04",
+    "title": "Unusual Supporting Documentation",
+    "domain": "Document fraud",
+    "required_controls": [
+      "supporting_documents_valid"
+    ],
+    "controls": {
+      "supporting_documents_valid": true
+    }
+  },
+  {
+    "scenario_id": "S05",
+    "title": "Customer Impersonation",
+    "domain": "Social engineering",
+    "required_controls": [
+      "customer_identity_verified"
+    ],
+    "controls": {
+      "customer_identity_verified": true
+    }
+  },
+  {
+    "scenario_id": "S06",
+    "title": "Executive Impersonation",
+    "domain": "Social engineering",
+    "required_controls": [
+      "executive_identity_verified"
+    ],
+    "controls": {
+      "executive_identity_verified": true
+    }
+  },
+  {
+    "scenario_id": "S07",
+    "title": "Urgency Manipulation",
+    "domain": "Social engineering",
+    "required_controls": [
+      "independent_review_completed"
+    ],
+    "controls": {
+      "independent_review_completed": true
+    }
+  },
+  {
+    "scenario_id": "S08",
+    "title": "Insider-Assisted Fraud",
+    "domain": "Social engineering",
+    "required_controls": [
+      "segregation_of_duties_enforced"
+    ],
+    "controls": {
+      "segregation_of_duties_enforced": true
+    }
+  },
+  {
+    "scenario_id": "S09",
+    "title": "Unavailable Signatory",
+    "domain": "Telephone verification",
+    "required_controls": [
+      "callback_completed"
+    ],
+    "controls": {
+      "callback_completed": true
+    }
+  },
+  {
+    "scenario_id": "S10",
+    "title": "Inconsistent Transaction Confirmation",
+    "domain": "Telephone verification",
+    "required_controls": [
+      "transaction_details_confirmed"
+    ],
+    "controls": {
+      "transaction_details_confirmed": true
+    }
+  },
+  {
+    "scenario_id": "S11",
+    "title": "Compromised Communication Channel",
+    "domain": "Telephone verification",
+    "required_controls": [
+      "trusted_channel_verified"
+    ],
+    "controls": {
+      "trusted_channel_verified": true
+    }
+  },
+  {
+    "scenario_id": "S12",
+    "title": "Disputed Verbal Approval",
+    "domain": "Telephone verification",
+    "required_controls": [
+      "approval_evidence_confirmed"
+    ],
+    "controls": {
+      "approval_evidence_confirmed": true
+    }
+  },
+  {
+    "scenario_id": "S13",
+    "title": "Missing Account Officer Approval",
+    "domain": "Management approvals",
+    "required_controls": [
+      "account_officer_approved"
+    ],
+    "controls": {
+      "account_officer_approved": true
+    }
+  },
+  {
+    "scenario_id": "S14",
+    "title": "Missing Group Head Approval",
+    "domain": "Management approvals",
+    "required_controls": [
+      "group_head_approved"
+    ],
+    "controls": {
+      "group_head_approved": true
+    }
+  },
+  {
+    "scenario_id": "S15",
+    "title": "Missing Divisional Head Approval",
+    "domain": "Management approvals",
+    "required_controls": [
+      "divisional_head_approved"
+    ],
+    "controls": {
+      "divisional_head_approved": true
+    }
+  },
+  {
+    "scenario_id": "S16",
+    "title": "Duplicate Payment",
+    "domain": "Payment processing",
+    "required_controls": [
+      "duplicate_check_passed"
+    ],
+    "controls": {
+      "duplicate_check_passed": true
+    }
+  },
+  {
+    "scenario_id": "S17",
+    "title": "Beneficiary Record Mismatch",
+    "domain": "Payment processing",
+    "required_controls": [
+      "beneficiary_record_matches"
+    ],
+    "controls": {
+      "beneficiary_record_matches": true
+    }
+  },
+  {
+    "scenario_id": "S18",
+    "title": "Unauthorised Transaction Release",
+    "domain": "Payment processing",
+    "required_controls": [
+      "release_authorised"
+    ],
+    "controls": {
+      "release_authorised": true
+    }
+  },
+  {
+    "scenario_id": "S19",
+    "title": "Incomplete Approval Audit Trail",
+    "domain": "Investigation",
+    "required_controls": [
+      "audit_trail_complete"
+    ],
+    "controls": {
+      "audit_trail_complete": true
+    }
+  },
+  {
+    "scenario_id": "S20",
+    "title": "Delayed Fraud Escalation",
+    "domain": "Investigation",
+    "required_controls": [
+      "fraud_escalation_timely"
+    ],
+    "controls": {
+      "fraud_escalation_timely": true
+    }
+  }
+]
